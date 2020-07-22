@@ -4,6 +4,8 @@
  * QQ:626164558
  * Email ：chen.qiao@foxmail.com
  */
+var notepack = require('msgpack-lite')
+
 var socket = null;
 
 var reqId = 0;
@@ -360,6 +362,14 @@ function defaultEncode(reqId, route, msg) {
  * 解码 Body
  */
 var deCompose = function(msg) {
+    if (notepack) {
+        try {
+            return notepack.decode(msg.body);
+        } catch(e) {
+            console.log(e);
+            return JSON.parse(Protocol.strdecode(msg.body));
+        }
+    }
     return JSON.parse(Protocol.strdecode(msg.body));
 };
 
@@ -414,7 +424,7 @@ export default {
         encode = params.encode || defaultEncode;
         decode = params.decode || defaultDecode;
 
-        var url = 'ws://' + host;
+        var url = 'wss://' + host;
         if(port) {
             url +=  ':' + port;
         }
