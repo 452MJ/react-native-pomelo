@@ -13,8 +13,7 @@
     "websocket",
     "chat"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": "kmend",
   "license": "MIT",
   "devDependencies": {
