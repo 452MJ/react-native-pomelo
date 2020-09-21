@@ -1,4 +1,4 @@
-# react-native-pomelo
+# react-native-zharev-pomelo
 
 [Pomelo](https://github.com/NetEase/pomelo) 在 React-Native WebSocket 的精简封装。 参考 [pomelo-cocos2d-js](https://github.com/NetEase/pomelo-cocos2d-js) 
 
@@ -7,18 +7,18 @@
 需要添加protobuf压缩的   [pomelo-protobuf](https://github.com/pomelonode/pomelo-protobuf)
 
 ```
-npm install react-native-pomelo --save
+npm install react-native-zharev-pomelo --save
 ```
 
 ```
-import Pomelo from 'react-native-pomelo';
+import Pomelo from 'react-native-zharev-pomelo';
 ```
 
 
 一个栗子
 ```
 
-import Pomelo from 'react-native-pomelo';
+import Pomelo from 'react-native-zharev-pomelo';
 let uid = "uid";
 let rid = "rid";
 let username = "username";
