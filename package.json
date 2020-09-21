@@ -1,11 +1,11 @@
 {
   "name": "react-native-zharev-pomelo",
-  "version": "1.0.0",
-  "description": "react-native-pomelo client",
+  "version": "1.0.1",
+  "description": "react-native-zharev-pomelo client",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/452MJ/react-native-pomelo"
+    "url": "https://github.com/452MJ/react-native-zharev-pomelo"
   },
   "keywords": [
     "react-native",
