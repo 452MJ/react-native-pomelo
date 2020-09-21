@@ -1,4 +1,4 @@
-# react-native-pomelo
+# react-native-zharev-pomelo
 
 [Pomelo](https://github.com/NetEase/pomelo) 在 React-Native WebSocket 的精简封装。 参考 [pomelo-cocos2d-js](https://github.com/NetEase/pomelo-cocos2d-js) 
 
