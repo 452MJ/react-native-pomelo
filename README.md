@@ -7,18 +7,18 @@
 需要添加protobuf压缩的   [pomelo-protobuf](https://github.com/pomelonode/pomelo-protobuf)
 
 ```
-npm install react-native-pomelo --save
+npm install react-native-zharev-pomelo --save
 ```
 
 ```
-import Pomelo from 'react-native-pomelo';
+import Pomelo from 'react-native-zharev-pomelo';
 ```
 
 
 一个栗子
 ```
 
-import Pomelo from 'react-native-pomelo';
+import Pomelo from 'react-native-zharev-pomelo';
 let uid = "uid";
 let rid = "rid";
 let username = "username";
